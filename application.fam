@@ -1,0 +1,13 @@
+App(
+    appid="snake_3310",
+    name="Snake 3310",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="snake_3310_app",
+    requires=["gui", "storage", "notification"],
+    stack_size=2 * 1024,
+    fap_category="Games",
+    fap_icon="snake_10px.png",
+    fap_version="1.0",
+    fap_author="Damian",
+    fap_description="Snake in stile cellulare anni 2000: 4 campi di gioco, bonus animali in movimento, record salvati.",
+)
